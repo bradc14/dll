@@ -12,8 +12,8 @@ Date Modified: October, 26th 2013
 
 int main()
 {
-	LinkedList test;
-	IteratorDLL distance,node1,node2;
+   LinkedList test;
+   IteratorDLL distance,node1,node2;
 
    int forward=0,backward=0;
 
@@ -21,10 +21,10 @@ int main()
    std::cout << "We are adding 0,10,20,30,40,50,60,70 into the list" << std::endl;
 
    // adding values both to the front and to the back of the node
-	test.addFront(30);
-	test.addFront(20);
+   test.addFront(30);
+   test.addFront(20);
    test.addFront(10);
-	test.addBack(40);
+   test.addBack(40);
    test.addBack(50);
    test.addFront(0);
    test.addBack(60);
